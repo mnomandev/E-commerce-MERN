@@ -21,10 +21,10 @@ const commonFeatureRouter = require("./routes/common/feature-routes");
 mongoose.connect("mongodb+srv://nomankhan02432:Nomankhan125@cluster0.jn8khgb.mongodb.net/").then(() =>
    console.log("MongoDB connected")).catch((error) => console.log(error));
 
-mongoose
-  .connect("db_url")
-  .then(() => console.log("MongoDB connected"))
-  .catch((error) => console.log(error));
+// mongoose
+//   .connect("db_url")
+//   .then(() => console.log("MongoDB connected"))
+//   .catch((error) => console.log(error));
 
 const app = express();
 const PORT = process.env.PORT || 5000;
